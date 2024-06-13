@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$foreground-rgb: #FFFFFF;
+$text-default: #000000;
+
+
+body {
+  color: $text-default;
+  background-color: $foreground-rgb;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .contact-shadow {
+    box-shadow: 0px 0px 62px 17px #02060c10;
+  }
+}
