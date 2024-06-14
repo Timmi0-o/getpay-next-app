@@ -4,8 +4,8 @@ import { Section } from '../ui/Section'
 export const MobileApp = () => {
 	return (
 		<Section>
-			<div className='w-full h-[404px] bg-[#EBFCFF] rounded-[32px] my-[80px]'>
-				<p className='text-[50px] leading-[72px] font-semibold text-center pt-[60px]'>
+			<div className='w-full h-[350px] lg:h-[404px] bg-[#EBFCFF] rounded-[32px] my-[80px]'>
+				<p className='text-[36px] lg:text-[50px] lg:leading-[72px] font-semibold text-center pt-[60px]'>
 					Download Our Mobile App
 				</p>
 				<p className='text-[16px] text-[#A3A4A7] font-medium text-center mt-[16px]'>

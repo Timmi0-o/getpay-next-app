@@ -5,6 +5,9 @@
 $foreground-rgb: #FFFFFF;
 $text-default: #000000;
 
+// * {
+//   outline: 1px solid red !important;
+// }
 
 body {
   color: $text-default;

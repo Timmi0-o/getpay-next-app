@@ -5,16 +5,16 @@ export const Different = () => {
 	return (
 		<Section>
 			<div className='h-[622px]'>
-				<div className='flex absolute w-[1130px] h-[705px]'>
-					<div className='relative w-full h-[705px] ml-[-170px] mt-[-85px]'>
+				<div className='flex absolute md:w-[700px] lg:w-[1000px] 2xl:w-[1140px] h-[705px]'>
+					<div className='relative w-full h-[705px] ml-0px lg:ml-[-175px] mt-[-85px]'>
 						<Image src={'/border-line.svg'} fill alt='border-line' />
 					</div>
 				</div>
 				<div className='relative z-10'>
-					<p className='text-[50px] font-semibold leading-[72px] mt-[85px]'>
+					<p className='text-[36px] lg:text-[50px] font-semibold leading-[72px] mt-[85px]'>
 						Why our product are different
 					</p>
-					<div className='flex gap-[98px]'>
+					<div className='flex gap-[20px] lg:gap-[98px]'>
 						{diferents.map((link, i) => (
 							<div
 								key={i}
@@ -23,7 +23,7 @@ export const Different = () => {
 								<div className='relative size-[64px]'>
 									<Image src={link.img} fill alt='diffenrent-category' />
 								</div>
-								<p className='text-[24px] text-[#12141D] font-semibold leading-[36px] mt-[32px]'>
+								<p className=' text-[20px] lg:text-[24px] text-[#12141D] font-semibold lg:leading-[36px] mt-[32px]'>
 									{link.title}
 								</p>
 								<p className='text-[16px] text-[#797979] font-medium leading-[28px] mt-[8px]'>
